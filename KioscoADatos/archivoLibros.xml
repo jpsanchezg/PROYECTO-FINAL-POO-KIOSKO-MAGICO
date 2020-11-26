@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<archivoLibros>
+    <libro>
+            <nombre> El Psicoanalista </nombre>
+            <isbn> 9781947783492 </isbn>
+            <precioBase>  10000.0 </precioBase>
+            <unidadesDisponibles> 80 </unidadesDisponibles>
+            <numeroImagenes> 5 </numeroImagenes>
+            <numeroVideos> 1 </numeroVideos>
+    </libro>
+    <libro>
+            <nombre> Juego de Tronos </nombre>
+            <isbn> 9780553386790 </isbn>
+            <precioBase>  2500.0 </precioBase>
+            <unidadesDisponibles> 80 </unidadesDisponibles>
+            <numeroImagenes> 15 </numeroImagenes>
+            <numeroVideos> 5 </numeroVideos>
+    </libro>
+    <libro>
+            <nombre> 1984 </nombre>
+            <isbn> 9788499890944 </isbn>
+            <precioBase>  4500.0 </precioBase>
+            <unidadesDisponibles> 30 </unidadesDisponibles>
+            <numeroImagenes> 5 </numeroImagenes>
+            <numeroVideos> 1 </numeroVideos>
+    </libro>
+    <libro>
+            <nombre> Un mundo feliz </nombre>
+            <isbn> 9788497594257 </isbn>
+            <precioBase>  7000.0 </precioBase>
+            <unidadesDisponibles> 30 </unidadesDisponibles>
+            <numeroImagenes> 5 </numeroImagenes>
+            <numeroVideos> 1 </numeroVideos>
+    </libro>
+    <libro>
+            <nombre> Un mundo feliz </nombre>
+            <isbn> 9788497594257 </isbn>
+            <precioBase>  7000.0 </precioBase>
+            <unidadesDisponibles> 30 </unidadesDisponibles>
+            <numeroImagenes> 5 </numeroImagenes>
+            <numeroVideos> 1 </numeroVideos>
+    </libro>
+    <libro>
+            <nombre> Bajo la misma estrella </nombre>
+            <isbn> 9781499513622 </isbn>
+            <precioBase>  500.0 </precioBase>
+            <unidadesDisponibles> 10 </unidadesDisponibles>
+            <numeroImagenes> 15 </numeroImagenes>
+            <numeroVideos> 15 </numeroVideos>
+    </libro>
+    <libro>
+            <nombre> Manifiesto Comunista </nombre>
+            <isbn> 9789197311205 </isbn>
+            <precioBase> 0.0 </precioBase>
+            <unidadesDisponibles> 69 </unidadesDisponibles>
+            <numeroImagenes> 69 </numeroImagenes>
+            <numeroVideos> 69 </numeroVideos>
+    </libro>
+    <libro>
+            <nombre> Satanas </nombre>
+            <isbn> 9788576654629 </isbn>
+            <precioBase> 9500.0 </precioBase>
+            <unidadesDisponibles> 45 </unidadesDisponibles>
+            <numeroImagenes> 20 </numeroImagenes>
+            <numeroVideos> 10 </numeroVideos>
+    </libro>
+    <libro>
+            <nombre> La República </nombre>
+            <isbn> 9781720235675 </isbn>
+            <precioBase> 20000.0 </precioBase>
+            <unidadesDisponibles> 5 </unidadesDisponibles>
+            <numeroImagenes> 0 </numeroImagenes>
+            <numeroVideos> 0 </numeroVideos>
+    </libro>
+    <libro>
+            <nombre> La Nausea </nombre>
+            <isbn> 9780811220309 </isbn>
+            <precioBase> 5000.0 </precioBase>
+            <unidadesDisponibles> 70 </unidadesDisponibles>
+            <numeroImagenes> 5 </numeroImagenes>
+            <numeroVideos> 5 </numeroVideos>
+    </libro>
+</archivoLibros>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="533.0" prefWidth="581.0" style="-fx-background-color: #FFF9C4;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kioscopresentacion.KioscoFXMLDocumentController">
+   <children>
+      <Button fx:id="BTNNuevoPrestamo" layoutX="370.0" layoutY="18.0" mnemonicParsing="false" onAction="#NuevoPrestamo" style="-fx-background-color: #03A9F4;" text="Nuevo Prestamo" textFill="WHITE" />
+      <Text fontSmoothingType="LCD" layoutX="26.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kiosko Mágico" wrappingWidth="282.9296875">
+         <font>
+            <Font name="Baskerville Old Face" size="39.0" />
+         </font>
+      </Text>
+      <Text layoutX="81.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fecha hora:" />
+      <Text layoutX="26.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Numero de prestamo:" />
+      <Label fx:id="LAfechahora" layoutX="153.0" layoutY="62.0" prefHeight="17.0" prefWidth="133.0" />
+      <Label fx:id="LANumPrestamo" layoutX="153.0" layoutY="88.0" prefHeight="17.0" prefWidth="133.0" />
+      <ComboBox fx:id="ComboLibros" layoutX="26.0" layoutY="123.0" onAction="#comboLibros" prefHeight="25.0" prefWidth="205.0" promptText="Seleccionar Libro" style="-fx-background-color: #FFE082;" />
+      <TextField fx:id="TXTCantidad" layoutX="252.0" layoutY="123.0" onAction="#cantidadLibros" prefHeight="25.0" prefWidth="90.0" promptText="Cantidad" style="-fx-background-color: #FFE082;">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <Button fx:id="BTNAgregarLinea" layoutX="361.0" layoutY="123.0" mnemonicParsing="false" onAction="#AgregarLinea" style="-fx-background-color: #7E57C2;" text="Agregar Linea" textFill="WHITE" />
+      <Button fx:id="BTNEliminar" layoutX="468.0" layoutY="210.0" mnemonicParsing="false" onAction="#EliminarLinea" style="-fx-background-color: #FF7043;" text="Eliminar Linea" />
+      <TextField fx:id="TXTCantidadMonedas" layoutX="26.0" layoutY="368.0" promptText="Cantidad de monedas" style="-fx-background-color: #FFE082;" />
+      <ComboBox fx:id="CBDenominacion" layoutX="192.0" layoutY="368.0" prefWidth="150.0" promptText="Denominacion" style="-fx-background-color: #FFE082;" />
+      <Button fx:id="BTNAgregarMonedas" layoutX="354.0" layoutY="368.0" mnemonicParsing="false" onAction="#AgregarMonedas" style="-fx-background-color: #7E57C2;" text="Agregar Monedas" textFill="WHITE" />
+      <Button layoutX="25.0" layoutY="490.0" mnemonicParsing="false" style="-fx-background-color: #03A9F4;" text="Terminar Prestamo" textFill="WHITE" />
+      <Button layoutX="168.0" layoutY="490.0" mnemonicParsing="false" style="-fx-background-color: #43A047;" text="Generar Reporte" textFill="WHITE" />
+      <Text layoutX="26.0" layoutY="422.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vueltos" />
+      <Label fx:id="LAVueltos" layoutX="73.0" layoutY="409.0" prefHeight="17.0" prefWidth="74.0" />
+      <Button fx:id="BTNConsultar" layoutX="192.0" layoutY="442.0" mnemonicParsing="false" onAction="#consultarPrestamo" style="-fx-background-color: #03A9F4;" text="Consultar Prestamo" textFill="WHITE" />
+      <TextField fx:id="TXTNumPrestamo" layoutX="26.0" layoutY="442.0" promptText="Numero Del prestamo" style="-fx-background-color: #FFE082;" />
+      <Text fx:id="txtNumprestamo" layoutX="272.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="112.0" />
+      <Label fx:id="LAError" layoutX="304.0" layoutY="88.0" prefHeight="17.0" prefWidth="261.0" textFill="RED" />
+      <TableView fx:id="TALineas" layoutX="29.0" layoutY="154.0" prefHeight="200.0" prefWidth="411.0">
+        <columns>
+          <TableColumn fx:id="CLibro" prefWidth="178.0" text="Libro" />
+          <TableColumn fx:id="CCantidad" prefWidth="62.0" text="Cantidad" />
+            <TableColumn fx:id="CPrecio" prefWidth="93.0" text="Precio" />
+            <TableColumn fx:id="Csubtotal" prefWidth="76.0" text="SubTotal" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
